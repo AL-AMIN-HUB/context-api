@@ -1,11 +1,11 @@
 import React from "react";
 
-const Uncle = (props) => {
-  const { house } = props;
+const Uncle = () => {
+  
   return (
     <div>
       <h1>Uncle</h1>
-      <p>House: {house} </p>
+      
     </div>
   );
 };

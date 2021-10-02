@@ -1,11 +1,9 @@
 import React from "react";
 
-const Sister = (props) => {
-  const { house } = props;
+const Sister = () => {
   return (
     <div>
       <h2>Sister</h2>
-      <p>House: {house}</p>
     </div>
   );
 };

@@ -12,7 +12,7 @@ function App() {
   return (
     // 2nd step =>  full jinis gola oi context er name.provider er vitore rakhbo
     // 3rd step => akta value set kore dibo   (hardCoded or dynamically)
-    <RingContext.Provider value={ornaments}>
+    <RingContext.Provider value={[ornaments, house]}>
       <div className="App">
         <p style={{ textAlign: "center" }}>
           <button onClick={() => setHouse(house + 1)}>Buy a new house</button>
